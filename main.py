@@ -192,7 +192,7 @@ def get_recommendations(N, scores):
 st.title('Recipe Recommendations')
 image = Image.open('cooking.jpg')
 st.image(image,
-         caption='Made by Gia Huy, Quang Canh',
+         caption='Made by Le Ngoc Gia Huy',
          width=300,
          use_column_width=True)
 ingreds = st.text_input('Enter ingredients (separated by commas):')
